@@ -1,0 +1,8 @@
+/usr/bin/allt-cli		--	gen_context(system_u:object_r:allt_exec_t,s0)
+/usr/sbin/alltd		--	gen_context(system_u:object_r:allt_exec_t,s0)
+/usr/lib(64)?/allt/alltd		--	gen_context(system_u:object_r:allt_exec_t,s0)
+
+/etc/allt(/.*)?		gen_context(system_u:object_r:allt_conf_t,s0)
+/var/lib/allt(/.*)?		gen_context(system_u:object_r:allt_var_lib_t,s0)
+
+(/var)?/run/alltd(/.*)?   gen_context(system_u:object_r:allt_var_run_t,s0)

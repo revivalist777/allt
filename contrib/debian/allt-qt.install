@@ -1,0 +1,6 @@
+usr/local/bin/allt-qt usr/bin
+share/pixmaps/allt32.xpm usr/share/pixmaps
+share/pixmaps/allt16.xpm usr/share/pixmaps
+share/pixmaps/allt128.png usr/share/pixmaps
+debian/allt-qt.desktop usr/share/applications
+debian/allt-qt.protocol usr/share/kde4/services/

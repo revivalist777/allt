@@ -1,0 +1,3 @@
+usr/local/bin/alltd usr/bin
+usr/local/bin/allt-cli usr/bin
+debian/examples/allt.conf etc/allt

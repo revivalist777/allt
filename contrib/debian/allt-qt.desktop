@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=allt Coin
+Comment=allt P2P Cryptocurrency
+Comment[fr]=allt, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=allt, eşten eşe kriptografik sanal para birimi
+Exec=allt-qt %u
+Terminal=false
+Type=Application
+Icon=allt128
+MimeType=x-scheme-handler/allt;
+Categories=Office;Finance;
+StartupWMClass=allt-qt
